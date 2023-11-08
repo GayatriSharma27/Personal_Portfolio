@@ -6,19 +6,48 @@
         <title>homepage</title>
         <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
+    
     <body>
-        <h3> I am Gayatri Sharma</h3>
-      <div>
-        <ul>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div> 
-        <p>
-            Welcome to my portfolio!
-            <br>
-            <img src="image3.jpg" width="450" height="300" alt="My picture">
-        </p>
+        <header>
+            <section>
+                <nav>
+                    <ul>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </section>  
+          <section>
+             <h6>Hello! my name is</h6>
+             <h1>Gayatri Sharma</h1>
+             <h4>I am a Web Developer.</h4>
+             <img src="image3.jpg" width="300" height="300" alt="my picture">
+          </section>
+        </header>
+        <section id="about">
+            <h1> About Me</h1>
+            <p>
+                I am currently pursuing Computer Programming Diploma at Seneca Polytechnic College.                 
+                I have strong foundations in various programming languages, including C, C++, and JavaScript, as well as expertise in web technologies such as HTML and CSS. I learned project management, SQL, and basic Unix/Linux operations.
+            </p>    
+        </section>
+        <section id="#contact">
+            Let's work together!!<br>
+            Get in touch using the form below:
+            <form>
+                <label for="fname"> First Name</label>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname"> Last Name</label>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="email"> Email Id</label>
+                <input type="text" id="email" name="email"><br>
+                <label for="brief"> Message </label>
+                <input type="text" id="brief" name="brief"><br>
+                <input type="submit" name="Submit"><br>
 
-    </body>
+            </form>
+        </section>
+
+  </body>
 </html>
+
